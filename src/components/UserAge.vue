@@ -18,7 +18,7 @@
             <h3 :class="['name', { 'focused-name': isFocused }]">
                 {{ student.name.toUpperCase() }} IS
             </h3>
-            <div class="flex gap-2 items-center mt-1.5">
+            <div class="flex gap-3 items-center mt-1.5">
                 <input
                     ref="inputRef"
                     v-model="formattedAge"
